@@ -44,6 +44,6 @@ const u_int16_t readStars(const std::string fileName) {
 }
 
 int main (){
-    std::cout << "Calibration Value is "<< readStars("files/stars.txt") << "\n";
+    std::cout << "Calibration Value is "<< readStars("../files/stars.txt") << "\n";
     return 0;
 }
